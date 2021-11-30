@@ -1,74 +1,78 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Εισαγωγή](README.md)
 
-## Basics
+## ΒΑΣΙΚΑ
 
-* [FAQ](basics/basics.md)
-  * [V2 Migration](basics/migration.md)
-* [Staking](basics/staking.md)
-* [Bonding](basics/bonding.md)
+* [ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ](basika/syxnes-erotiseis/README.md)
+  * [Μετάβαση V2](basika/syxnes-erotiseis/metavasi-v2.md)
 
-## Using the Website
+***
 
-* [Stake Your OHM \(3, 3\)](using-the-website/staking.md)
-* [Purchase A Bond \(1, 1\)](using-the-website/bonds/README.md)
-  * [DAI Bond](using-the-website/bonds/bond_dai.md)
-  * [FRAX Bond](using-the-website/bonds/bond_frax.md)
-  * [wETH Bond](using-the-website/bonds/bond_weth.md)
-  * [OHM-DAI LP Bond](using-the-website/bonds/ohm-dai-lp-bond.md)
-  * [OHM-FRAX LP Bond](using-the-website/bonds/bond_ohm_frax.md)
-* [Stake LP Tokens](using-the-website/staking_lp.md)
-* [Unstake LP Tokens](using-the-website/unstaking_lp.md)
-* [Migrate Staked OHM](using-the-website/migrate.md)
+* [Κλείδωμα](kleidoma.md)
+* [Δέσμευση](desmeysi.md)
 
-## Using Etherscan
+## ΧΡΗΣΙΜΟΠΟΙΩΝΤΑΣ ΤΗΝ ΙΣΤΟΣΕΛΙΔΑ
 
-* [Stake Your OHM \(3, 3\)](using-etherscan/staking.md)
-* [Unstake sOHM](using-etherscan/unstaking.md)
+* [Κλειδώστε το OHM σας (3, 3)](xrisimopoiontas-tin-istoselida/kleidoste-to-ohm-sas-3-3.md)
+* [Αγορά ομολόγου (1, 1)](xrisimopoiontas-tin-istoselida/agora-omologoy-1-1/README.md)
+  * [Ομόλογο DAI](xrisimopoiontas-tin-istoselida/agora-omologoy-1-1/omologo-dai.md)
+  * [Ομόλογο FRAX](xrisimopoiontas-tin-istoselida/agora-omologoy-1-1/omologo-frax.md)
+  * [Ομόλογο wETH](xrisimopoiontas-tin-istoselida/agora-omologoy-1-1/omologo-weth.md)
+  * [Ομόλογο OHM-DAI LP](xrisimopoiontas-tin-istoselida/agora-omologoy-1-1/omologo-ohm-dai-lp.md)
+  * [Ομόλογο OHM-FRAX LP](xrisimopoiontas-tin-istoselida/agora-omologoy-1-1/omologo-ohm-frax-lp.md)
 
-## Partnership
+***
 
-* [Frax Finance](partnership/frax-partnership.md)
-* [Rari Capital](partnership/rari-partnership/README.md)
-  * [Fuse](partnership/rari-partnership/fuse.md)
-* [Abracadabra.money](partnership/abracadabra.money/README.md)
-  * [Borrowing](partnership/abracadabra.money/borrow.md)
+* [Κλείδωμα LP Tokens](kleidoma-lp-tokens.md)
+* [Ξεκλείδωμα LP Tokens](ksekleidoma-lp-tokens.md)
 
-## Protocol Internals
+## ΧΡΗΣΙΜΟΠΟΙΩΝΤΑΣ ΤΟ ETHERSCAN
 
-* [Initial Network State](protocol-internals/initial-network-state.md)
-* [Policy](protocol-internals/policy.md)
-* [Market Dynamics](protocol-internals/market-dynamics.md)
+* [Κλειδώστε το OHM σας (3, 3)](xrisimopoiontas-to-etherscan/kleidoste-to-ohm-sas-3-3.md)
+* [Ξεκλείδωμα sOHM](xrisimopoiontas-to-etherscan/ksekleidoma-sohm.md)
 
-## Whitepapers
+## ΣΥΝΕΡΓΑΣΙΕΣ
 
-* [Economic Productivity](whitepapers/economic-productivity.md)
-* [Olympus Game Theory](whitepapers/game-theory.md)
+* [Frax Finance](synergasies/frax-finance.md)
+* [Rari Capital](synergasies/rari-capital/README.md)
+  * [Fuse](synergasies/rari-capital/fuse.md)
+* [Abracadabra.money](synergasies/abracadabra.money/README.md)
+  * [Δανεισμός](synergasies/abracadabra.money/daneismos.md)
 
-## Contracts
+## ΕΣΩΤΕΡΙΚΑ ΠΡΩΤΟΚΟΛΛΟΥ
 
-* [Allocators](contracts/allocators.md)
-* [Audits](contracts/audits.md)
-* [Bonds](contracts/bonds.md)
-* [DAO](contracts/dao.md)
-* [Policy](contracts/policy.md)
-* [Staking](contracts/staking.md)
-* [Tokens](contracts/tokens.md)
-* [Treasury](contracts/treasury.md)
+* [Αρχική κατάσταση δικτύου](esoterika-protokolloy/arxiki-katastasi-diktyoy.md)
+* [Πολιτική](esoterika-protokolloy/politiki.md)
+* [Δυναμικές της Αγοράς](esoterika-protokolloy/dynamikes-tis-agoras.md)
 
-## References
+## ΛΕΥΚΟΙ ΒΙΒΛΟΙ
 
-* [Architecture](references/architecture.md)
-* [Equations](references/equations.md)
-* [Glossary](references/glossary.md)
-* [Links](references/links.md)
-* [Translations](references/translations.md)
+* [Οικονομική Παραγωγικότητα στα Ψηφιακά Μέσα](leykoi-bibloi/oikonomiki-paragogikotita-sta-psifiaka-mesa.md)
+* [Θεωρία Παιγνίων του Olympus](leykoi-bibloi/theoria-paignion-toy-olympus.md)
 
-## Get Involved
+## ΣΥΜΒΟΛΑΙΑ
 
-* [Contribute](get-involved/contribute.md)
-* [Community Discord](https://discord.com/invite/olympusdao)
+* [Κατανεμητές](symbolaia/katanemites.md)
+* [Έλεγχοι](symbolaia/elegxoi.md)
+* [Ομόλογα](symbolaia/omologa.md)
+* [DAO](symbolaia/dao.md)
+* [Πολιτική](symbolaia/politiki.md)
+* [Κλείδωμα](symbolaia/kleidoma.md)
+* [Tokens](symbolaia/tokens.md)
+* [Θησαυροφυλάκιο](symbolaia/thisayrofylakio.md)
+
+## ΑΝΑΦΟΡΕΣ
+
+* [Αρχιτεκτονική](anafores/arxitektoniki.md)
+* [Εξισώσεις](anafores/eksisoseis.md)
+* [Γλωσσάριο](anafores/glossario.md)
+* [Σύνδεσμοι](anafores/syndesmoi.md)
+* [Μεταφράσεις](anafores/metafraseis.md)
+
+## ΣΥΜΜΕΤΕΧΕΤΕ
+
+* [Συνεισφορά](symmetexete/syneisfora.md)
+* [Η Κοινότητα μας στο Discord](https://discord.com/invite/olympusdao)
 * [DAO Discord](https://discord.com/invite/42xFV68uEf)
 * [Forum](https://forum.olympusdao.finance)
-
