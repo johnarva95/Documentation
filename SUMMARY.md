@@ -27,6 +27,8 @@
 
 * [Κλείδωμα LP Tokens](kleidoma-lp-tokens.md)
 * [Ξεκλείδωμα LP Tokens](ksekleidoma-lp-tokens.md)
+* [Μετεγκατάσταση Tokens (v1.1)](metegkatastasi-tokens-v1.1.md)
+* [Μετεγκατάσταση Tokens (v2)](metegkatastasi-tokens-v2.md)
 
 ## ΧΡΗΣΙΜΟΠΟΙΩΝΤΑΣ ΤΟ ETHERSCAN
 
