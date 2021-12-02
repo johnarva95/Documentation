@@ -5,6 +5,7 @@
 ## ΒΑΣΙΚΑ
 
 * [ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ](basika/syxnes-erotiseis/README.md)
+  * [OlyZaps](basika/syxnes-erotiseis/olyzaps.md)
   * [Μετάβαση V2](basika/syxnes-erotiseis/metavasi-v2.md)
 
 ***
