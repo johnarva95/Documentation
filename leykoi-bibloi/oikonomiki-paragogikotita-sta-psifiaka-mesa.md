@@ -126,36 +126,36 @@ nf.carlo.acutis
 
 #### 8. Βιβλιογραφική ανασκόπηση
 
-Game theory:&#x20;
+_Game theory:_&#x20;
 
 * Thomas Schelling "Strategy of Conflict" (1960)
 * David Lewis, "Convention" (1970)&#x20;
 * Robert Axelrod, "The Evolution of Cooperation" (1984)&#x20;
 
-Transaction cost economics:&#x20;
+_Transaction cost economics:_&#x20;
 
 * Ronald Coase, “The Nature of the Firm” (1937)
 * Douglass North, “Transaction Costs, Institutions, Economics” (1992)&#x20;
 
-Reflexivity / Mimesis:&#x20;
+_Reflexivity / Mimesis:_&#x20;
 
 * George Soros "Alchemy of Finance" (1987)
 * Rene Girard, "I See Satan Fall Like Lightning" (2001)&#x20;
 
-Distributism:&#x20;
+_Distributism:_&#x20;
 
 * Hillaire Belloc, "An Essay on the Restoration of Property" (1936)&#x20;
 
-Tacit Knowledge / Spontaneous Order:&#x20;
+_Tacit Knowledge / Spontaneous Order:_&#x20;
 
 * Michael Polanyi, "The Tacit Dimension" (1966)
 * Friedrich Hayek, "The Use of Knolwedge in Society" (1945)&#x20;
 
-Classical Political Economy:&#x20;
+_Classical Political Economy:_&#x20;
 
 * Adam Smith, "An Inquiry into the Nature and Causes of The Wealth of Nations" (1776)&#x20;
 
-Digital Asset Fundamental Valuation:&#x20;
+_Digital Asset Fundamental Valuation:_&#x20;
 
 * Joel Monegro, "Fat Protocols Thesis" (2016)
 * Nick Szabo, "Money, Blockchains, and Social Scalability" (2017)&#x20;
@@ -164,7 +164,7 @@ Digital Asset Fundamental Valuation:&#x20;
 * Hasseeb Qoreshi, "Why Decentralization Isn't As Important As You Think" (2020)&#x20;
 * Raoul Pal, "The Inconvenient Truth About Crypto Currencies" (2021)&#x20;
 
-Foundations of internal coordination theory / objective situational analysis:&#x20;
+_Foundations of internal coordination theory / objective situational analysis:_&#x20;
 
 * Aristotle, "Nichomachean Ethics"&#x20;
 * St. Thomas Aquinas, "Summa Theologiae" (1485)&#x20;
