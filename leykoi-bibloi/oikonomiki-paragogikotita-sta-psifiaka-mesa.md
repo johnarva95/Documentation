@@ -169,3 +169,5 @@ _Foundations of internal coordination theory / objective situational analysis:_&
 * Aristotle, "Nichomachean Ethics"&#x20;
 * St. Thomas Aquinas, "Summa Theologiae" (1485)&#x20;
 * Wilhelm Gottfried Leibniz, "Discourse on Metaphysics" (1686)
+
+_Ευχαριστώ τους kleb, Jalamedaresearch, kschan και JFry4 για την αναθεώρηση και τα σχόλια. (Μικρές ενημερώσεις συνεχίζονται)_
