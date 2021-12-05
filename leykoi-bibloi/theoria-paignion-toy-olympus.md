@@ -2,119 +2,54 @@
 
 kleb
 
-## Introduction <a href="#introduction" id="introduction"></a>
+Εισαγωγή Το Olympus αποτελεί καινοτομία στον τρόπο με τον οποίο οι άνθρωποι αλληλεπιδρούν με τα οικονομικά πρωτόκολλα. Το κίνητρό μας είναι να εμβαθύνουμε στο πρωτόκολλο Olympus όχι από τεχνική ή οικονομική άποψη, αλλά από την άποψη της ανάλυσης της ανθρώπινης αλληλεπίδρασης.
 
-​[Olympus](https://www.olympusdao.finance) is an innovation in the way people interact with financial protocols. Our motivation is to delve deep into the Olympus protocol not from a technical or financial perspective but from the perspective of analysing human interaction.
+Υπάρχουν πολλά πεδία που έχουν κάτι να πουν για την ανθρώπινη αλληλεπίδραση, αλλά το πεδίο μελέτης στο οποίο θα επικεντρωθούμε εδώ είναι η θεωρία παιγνίων - η μελέτη της στρατηγικής αλληλεξάρτησης.
 
-There are many fields that have something to say about human interaction but the field of study we will focus on here will be game theory - the study of strategic interdependence.
+Πιστεύουμε ότι το Olympus λύνει το πρόβλημα της δημιουργίας ενός νέου νομίσματος μέσω του εσωτερικού συντονισμού μεταξύ των διαφόρων ενδιαφερομένων μερών εντός του πρωτοκόλλου, χωρίς να καταφεύγει σε οποιαδήποτε πολιτική που επιβάλλεται από μια κεντρική οντότητα. Στην ουσία πρόκειται για ένα παράδειγμα του διλήμματος του φυλακισμένου. Το δίλημμα του φυλακισμένου είναι μια κατάσταση όπου το ατομικό συμφέρον ενός ατόμου έρχεται σε σύγκρουση με έναν κοινό στόχο, με αποτέλεσμα οι παίκτες εντός του παιχνιδιού να μην συνεργάζονται, παρόλο που η συνεργασία είναι προς το συμφέρον τους.
 
-It is our belief that Olympus is solving the problem of creating a new currency through internal coordination between different stakeholders within the protocol, without resorting to any policy enforced by a central entity. At its core this is an example of a [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's\_dilemma). A prisoner's dilemma is a situation where an individual's self interest is in conflict with a common goal, leading to the players within the game not cooperating despite it being in their best interests to cooperate.
+Στην περίπτωση του νομίσματος, είναι προς το συμφέρον του καθενός να χρησιμοποιεί τα πιο ρευστά, τα πιο διαδεδομένα και τα πιο σταθερά νομίσματα. Στην κρυπτογράφηση τα περιουσιακά στοιχεία που πληρούν καλύτερα αυτές τις απαιτήσεις ήταν τα σταθείσματαρά νομ σε δολάρια. Ο "κοινός στόχος" σε αυτό το πλαίσιο, είναι η διατήρηση της αγοραστικής δύναμης του ατόμου. Αυτό είναι κάτι που τα σταθερά νομίσματα κατηγορηματικά δεν επιτυγχάνουν, καθώς τα περισσότερα από αυτά είναι συνδεδεμένα με νομίσματα παραστατικού χρήματος, τα οποία είναι εκτεθειμένα στον κίνδυνο πληθωρισμού. Κανένα άτομο που ενεργεί μόνο του δεν μπορεί να αποσυνδέσει τα κρυπτονομίσματα από το παραστατικό χρήμα. Χρειάζεται μαζικός συντονισμός και ευθυγράμμιση των κινήτρων και αυτό είναι που διευκολύνει το Olympus.
 
-In the case of currency, it is in each individual's best interest to use the most liquid, most widely used and most stable currencies. In crypto the assets that best meet these requirements have been dollar-denominated stablecoins. The ‘common goal’ in this context, is to maintain the individual’s purchasing power. This is something which stablecoins categorically do not achieve as most of them are pegged to fiat currencies, which are exposed to inflation risk. No individual acting alone can disentangle crypto from fiat. It takes mass coordination and alignment of incentives and this is what Olympus facilitates.
+Θα ξεκινήσουμε περιγράφοντας τα βασικά στοιχεία της θεωρίας παιγνίων και αναλύοντας το δίλημμα του φυλακισμένου από μια καθαρά αφηρημένη οπτική γωνία. Στη συνέχεια θα εμβαθύνουμε στα συγκεκριμένα στοιχεία του Olympus. Δεν θα κάνουμε καμία παράκαμψη. Το Olympus είναι ένα πολύπλοκο πρωτόκολλο που είναι το πρώτο στο είδος του και αξίζει να αναλυθεί σε βάθος και σε βάθος.
 
-We will begin by outlining the essentials of game theory, and analysing the prisoner's dilemma from a purely abstract perspective. We will then delve into the specific components of Olympus. We will take no shortcuts. Olympus is a complex protocol that is the first of its kind and is deserving of deep and thorough analysis.
+Πρόκειται για ένα συλλογικό έργο που θα επαναλαμβάνεται με την πάροδο του χρόνου. Απευθύνεται σε ένα ευρύ φάσμα αναγνωστών και αν θέλετε να προσφέρετε ανατροφοδότηση ή να συνεισφέρετε σε μελλοντικές ενότητες, παρακαλείστε να συμμετάσχετε στο discord του Olympus DAO και να επικοινωνήσετε με την ομάδα Κοινότητας και Περιεχομένου.
 
-This is a collaborative piece of work that will be iterated on over time. It is aimed at a broad range of readers and if you would like to offer feedback or contribute to future sections, please join the Olympus DAO discord and reach out to the Community and Content team.
+Βασικά Στοιχεία Θεωρίας Παιγνίων Τι είναι η Θεωρία Παιγνίων; Η θεωρία παιγνίων είναι η μελέτη της στρατηγικής αλληλεξάρτησης. Υπάρχουν πολλές καταστάσεις στη ζωή όπου η καλύτερη αντίδραση σε μια κατάσταση εξαρτάται από το τι κάνουν οι άλλοι άνθρωποι στην ίδια κατάσταση. Οι στρατηγικές καταστάσεις είναι ενδιαφέρουσες επειδή συχνά μπορούμε να έχουμε πολλαπλά αποτελέσματα, μερικά από τα οποία είναι εξαιρετικά σταθερά και ωστόσο υπο-βέλτιστα για όλους τους εμπλεκόμενους ανθρώπους.
 
-## Game Theory Essentials <a href="#game-theory-essentials" id="game-theory-essentials"></a>
+Εξετάστε μια μακροοικονομική εφαρμογή πολλαπλών σταθερών αποτελεσμάτων υπό αυτές τις συνθήκες: Οι επιχειρήσεις επενδύουν μόνο εάν οι πελάτες θα αγοράσουν αγαθά. Οι πελάτες αγοράζουν αγαθά μόνο αν πληρώνονται με μισθούς. Οι επιχειρήσεις πληρώνουν μισθούς στους πελάτες μόνο αν οι πελάτες αγοράζουν αγαθά. Το αισιόδοξο αποτέλεσμα: Οι επιχειρήσεις πιστεύουν ότι οι πελάτες θα αγοράσουν αγαθά και έτσι επεκτείνουν την παραγωγή. Οι πελάτες αγοράζουν αυτά τα αγαθά επειδή πιστεύουν ότι οι μισθοί τους είναι ασφαλείς. Τα διευρυμένα κέρδη επιτρέπουν στις επιχειρήσεις να πληρώνουν υψηλότερους μισθούς κ.λπ. Το απαισιόδοξο αποτέλεσμα: Οι επιχειρήσεις δεν πιστεύουν ότι οι πελάτες θα αγοράσουν αγαθά και έτσι περιορίζουν την παραγωγή για να εξοικονομήσουν κόστος. Οι πελάτες περιορίζουν τις αγορές τους επειδή είναι αβέβαιοι για την ασφάλεια του μισθού τους. Τα κέρδη των επιχειρήσεων μειώνονται, γεγονός που οδηγεί σε περικοπές κόστους με τη μορφή περικοπών μισθών/απολύσεων εργαζομένων κ.λπ. Μπορούμε να δούμε ότι κανείς δεν θέλει να είναι στην απαισιόδοξη έκβαση και παρόλα αυτά αυτή η έκβαση είναι πολύ πιθανή. Για να καταλάβουμε το γιατί, χρησιμοποιούμε τη θεωρία παιγνίων. Το Μοντέλο Ουσιαστικά, ένα θεωρητικό μοντέλο παιγνίων έχει τις ακόλουθες συνιστώσες:
 
-### What is Game Theory? <a href="#what-is-game-theory" id="what-is-game-theory"></a>
+Παίκτες Κάνουν επιλογές με βάση τις πληροφορίες που κατέχουν για τον εαυτό τους, τους άλλους παίκτες και τη δομή του παιχνιδιού.
 
-Game theory is the study of strategic interdependence. There are many situations in life where the best response to a situation depends on what other people in that situation do. Strategic situations are interesting because we can often get multiple outcomes, some of which are remarkably stable and yet sub-optimal for all people involved.
+Στρατηγική Το σύνολο των επιλογών που κάνει ένας παίκτης σε ένα παιχνίδι.
 
-Consider a macroeconomic application of multiple stable outcomes under these conditions:
+Αποζημιώσεις Μια αποζημίωση είναι η ανταμοιβή για κάθε παίκτη, η οποία εξαρτάται από το αποτέλεσμα της αλληλεπίδρασης. Αποφασίζουμε τις απολαβές λαμβάνοντας υπόψη τις προτιμήσεις κάθε παίκτη στο πλαίσιο του παιγνίου.
 
-* Firms only invest if customers will buy goods.
-* Customers only buy goods if they are paid wages.
-* Customers are only paid wages by firms if customers buy goods.
+Πίνακας αποπληρωμής Ένας πίνακας που παραθέτει όλες τις διαθέσιμες στρατηγικές και τις αντίστοιχες αποπληρωμές τους.
 
-The optimistic outcome:
+Η θεωρία παιγνίων είναι χρήσιμη επειδή μας επιτρέπει να προσδιορίσουμε τη βέλτιστη στρατηγική που παράγει το καλύτερο αποτέλεσμα για όλους τους εμπλεκόμενους παίκτες.
 
-* Firms think customers will buy goods and so expand production.
-* Customers buy these goods because they think their wages are secure.
-* The expanded profits allow firms to pay higher wages etc.
+Ο καλύτερος τρόπος για να κατανοήσετε τη δύναμη της θεωρίας παιγνίων είναι ένα παράδειγμα. Το δίλημμα του φυλακισμένου - Ένα ταυτόχρονο παιχνίδι Το πρώτο παίγνιο που μαθαίνει κάθε μαθητής της θεωρίας παιγνίων είναι το δίλημμα του φυλακισμένου. Αυτό οφείλεται στην απλότητά του και στις εφαρμογές του σε μια μεγάλη ποικιλία στρατηγικών καταστάσεων. Μόλις δείτε και κατανοήσετε αυτό το παίγνιο, θα το δείτε να παίζει παντού. Περιεχόμενο Η ιστορία έχει ως εξής: Δύο κλέφτες σχεδιάζουν να ληστέψουν ένα κατάστημα. Καθώς πλησιάζουν την πόρτα, η αστυνομία τους συλλαμβάνει για καταπάτηση. Η αστυνομία υποψιάζεται ότι το ζευγάρι σχεδίαζε να ληστέψει το κατάστημα, αλλά δεν έχει τα στοιχεία για να το αποδείξει. Επομένως, απαιτούν μια ομολογία για να κατηγορήσουν τους υπόπτους για το σοβαρότερο έγκλημα. Ο ανακριτής χωρίζει τους υπόπτους και τους λέει στον καθένα:
 
-The pessimistic outcome:
+"Σας κατηγορούμε για καταπάτηση που θα σας επιφέρει ποινή φυλάκισης ενός μήνα. Ξέρω ότι σχεδίαζες να ληστέψεις το μαγαζί, αλλά δεν μπορώ να το αποδείξω χωρίς την κατάθεσή σου. Ομολογήστε μου τώρα και θα αποσύρω την κατηγορία της καταπάτησης και θα σας αφήσω ελεύθερο. Ο φίλος σας θα κατηγορηθεί για απόπειρα ληστείας και θα αντιμετωπίσει 12 μήνες φυλάκιση. Προσφέρω στον φίλο σου την ίδια συμφωνία. Αν ομολογήσετε και οι δύο, η μαρτυρία σας δεν έχει πλέον την ίδια αξία και θα λάβετε και οι δύο 8 μήνες φυλάκιση".
 
-* Firms do not think customers will buy goods and so restrict production to save costs.
-* Customers restrict their purchasing because they are uncertain about their wage security.
-* Firms profits fall, leading to cost cutting in the form of wage cutting/laying off workers etc.
+Και οι δύο παίκτες έχουν ιδιοτελή συμφέροντα και θέλουν να ελαχιστοποιήσουν τον χρόνο φυλάκισής τους. Τι πρέπει να κάνουν; Πίνακας αποπληρωμής Η χρήση ενός πίνακα πληρωμών μας επιτρέπει να συμπυκνώσουμε όλες τις πληροφορίες σε ένα εύκολο στην ανάλυση διάγραμμα:
 
-We can see that no one wants to be in the pessimistic outcome and yet still this outcome is very plausible. To understand why, we use game theory.
+Οι διαθέσιμες στρατηγικές του παίκτη 1 είναι οι γραμμές (Quiet ή Confess) και οι αντίστοιχες αποπληρωμές είναι οι πρώτοι αριθμοί σε κάθε κελί.
 
-### The Model <a href="#the-model" id="the-model"></a>
+Οι διαθέσιμες στρατηγικές του παίκτη 2 είναι οι στήλες και οι αντίστοιχες αποπληρωμές τους είναι οι δεύτεροι αριθμοί στα κελιά.
 
-In essence a game theoretic model has the following components:
+Εάν ο παίκτης 1 παραμείνει Quiet και ο παίκτης 2 παραμείνει Quiet, το παιχνίδι τελειώνει στην επάνω αριστερή γωνία του πίνακα. Αν και οι δύο παίκτες ομολογήσουν, το παιχνίδι τελειώνει στην κάτω δεξιά γωνία του πίνακα και ούτω καθεξής.
 
-**Players** They make choices based on information they hold about themselves, the other players and the structure of the game.
+Στρατηγικές Για να δούμε ποια στρατηγική θα επιλέξει ο κάθε παίκτης θα πρέπει να εξετάσουμε κάθε κίνηση ξεχωριστά. Από τη σκοπιά του παίκτη 1, τι πρέπει να κάνει αν πιστεύει ότι ο παίκτης 2 θα παραμείνει ήσυχος;
 
-**Strategy** The full set of choices a player makes in a game.
+Βλέπουμε ότι ο παίκτης 1 πρέπει να ομολογήσει, διότι αν παραμείνει σιωπηλός θα φάει ένα μήνα φυλακή και έχουμε ήδη δηλώσει ότι και οι δύο παίκτες προτιμούν λιγότερο χρόνο στη φυλακή. Τι γίνεται αν ο παίκτης 1 πίστευε ότι ο παίκτης 2 επρόκειτο να ομολογήσει;
 
-**Payoffs** A payoff is the reward to each player, dependent on the outcome of the interaction. We decide payoffs by considering each player's preferences within the game.
+Και πάλι φαίνεται ότι ο παίκτης 1 θα πρέπει να ομολογήσει, καθώς αυτό οδηγεί σε 8 μήνες φυλάκισης αντί για 12 που προσφέρονται αν ο παίκτης 1 παραμείνει ήσυχος. Συνδυάζοντας όλα αυτά καταλήγουμε σε ένα σημαντικό συμπέρασμα: Ο παίκτης 1 είναι καλύτερα να ομολογήσει ανεξάρτητα από τη στρατηγική του παίκτη 2. Ας δούμε την προοπτική του παίκτη 2, υποθέτοντας ότι πιστεύει ότι ο παίκτης 1 θα παραμείνει ήσυχος:
 
-**Payoff Matrix** A table that lists all the available strategies and their respective payoffs.
+Κοιτάζοντας τώρα τους δεύτερους αριθμούς μπορούμε να δούμε ότι όπως ο παίκτης 1, έτσι και ο παίκτης 2 θα πρέπει να ομολογήσει: θα αφεθεί ελεύθερος αντί να φάει 1 μήνα φυλακή.
 
-Game Theory is useful because it allows us to determine the optimal strategy which produces the best outcome for all the players involved.
+Για άλλη μια φορά φαίνεται ότι η ομολογία θα πρέπει να είναι η επιλεγμένη στρατηγική, ακόμη και αν ο παίκτης 2 πιστεύει ότι ο παίκτης 1 θα ομολογήσει επίσης. Ο παίκτης 2 είναι επίσης καλύτερα να ομολογήσει ανεξάρτητα από τη στρατηγική του παίκτη 1. Υποθέσεις και συμπεράσματα Υποθέσαμε ότι οι προτιμήσεις και των δύο παικτών ήταν να ελαχιστοποιήσουν το χρόνο φυλάκισής τους Υποθέσαμε ότι και οι δύο παίκτες ήταν ιδιοτελείς (δηλαδή δεν τους ενδιαφέρει η τύχη των φίλων τους). Υποθέσαμε μόνο μία αλληλεπίδραση Υποθέσαμε ότι οι παίκτες δεν μπορούσαν να αλληλεπιδράσουν και να σχεδιάσουν τις απαντήσεις τους εκ των προτέρων. Αυτές οι υποθέσεις οδήγησαν σε μη βέλτιστο αποτέλεσμα στο παιχνίδι (Confess, Confess). Βλέπουμε ότι αν και οι δύο παίκτες είχαν παραμείνει σιωπηλοί, θα είχαν λάβει λιγότερη ποινή φυλάκισης. Ωστόσο, αυτή είναι μια ασταθής ισορροπία, επειδή (όπως είδαμε) και οι δύο παίκτες έχουν κίνητρο να επιλέξουν την επιλογή Confess, αν πιστεύουν ότι ο άλλος θα παραμείνει Quiet.
 
-The best way to get to grips with the power of game theory, is with an example.
+Συνεπώς, το Confess, Confess είναι η μόνη ισορροπία Nash. Ισορροπία Nash είναι μια κατάσταση σε ένα παίγνιο όπου κανένας παίκτης δεν επιθυμεί να παρεκκλίνει από τη στρατηγική του, δεδομένου του τι κάνουν οι άλλοι παίκτες.
 
-## The Prisoner's Dilemma - A Simultaneous Game <a href="#the-prisoners-dilemma-a-simultaneous-game" id="the-prisoners-dilemma-a-simultaneous-game"></a>
-
-The first game any student of game theory learns is the prisoner's dilemma. This is due to its simplicity and it's applications to a wide variety of strategic situations. Once you see and understand this game, you will see it at play everywhere.
-
-### Context <a href="#context" id="context"></a>
-
-The story goes like this; Two thieves plan to rob a store. As they approach the door, the police arrest them for trespassing. The police suspect that the pair planned to rob the store but they lack the evidence to prove it. They therefore require a confession to charge the suspects with the more serious crime. The interrogator separates the suspects and tells them each:
-
-_“We are charging you with trespassing which will land you a one month jail sentence. I know you were planning to rob the store but I can’t prove it_ _without your testimony. Confess to me now, and I will dismiss your trespassing charge and set you free. Your friend will be charged for attempted_ _robbery and face 12 months in jail._ _I’m offering your friend the same deal. If you both confess, your testimony is no longer as valuable and you will both receive 8 months in jail.”_
-
-Both players are self-interested and want to minimise their jail time. What should they do?
-
-### Payoff Matrix <a href="#payoff-matrix" id="payoff-matrix"></a>
-
-Using a payoff matrix allows us to condense all the information into an easy-to-analyse diagram:
-
-![](https://docs.olympusdao.finance/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MV4hwONledQK5nEDaUc-887967055%2Fuploads%2Fgit-blob-3d18a64ee34b85936eb4b83f3a2f864223e95890%2Fmatrix\_1.png?alt=media)
-
-Player 1’s available strategies are the rows (Quiet or Confess) and their corresponding payoffs are the first numbers in each cell.
-
-Players 2’s available strategies are the columns and their corresponding payoffs are the second numbers in the cells.
-
-If player 1 stays Quiet and player 2 stays Quiet the game ends in the top left corner of the matrix. If both players Confess the game ends in the bottom right corner of the matrix and so on.
-
-### Strategies <a href="#strategies" id="strategies"></a>
-
-To see which strategy each player will choose we should look at each move in isolation. From player 1’s perspective, what should he do if he thinks player 2 will stay Quiet?
-
-![](https://docs.olympusdao.finance/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MV4hwONledQK5nEDaUc-887967055%2Fuploads%2Fgit-blob-f1f0d9bdaf4be0bda84e430c6418d11c26b564a2%2Fmatrix\_2\_correct.png?alt=media)
-
-We can see that player 1 should Confess because if he stays Quiet he will get one month in jail and we have already stated that both players prefer less time in jail.
-
-What about if player 1 thought that player 2 was going to Confess?
-
-![](https://docs.olympusdao.finance/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MV4hwONledQK5nEDaUc-887967055%2Fuploads%2Fgit-blob-1361126d6e17ac65d7692f314db28d5a8a6f2e6e%2Fmatrix\_3.png?alt=media)
-
-Again it seems that player 1 should Confess as it leads to 8 months jail time rather than the 12 on offer if player 1 stays Quiet.
-
-Putting this together we reach an important conclusion: **Player 1 is better off confessing regardless of player 2’s strategy.**
-
-Let’s look at player 2’s perspective, assuming he thinks player 1 will stay quiet:![](https://docs.olympusdao.finance/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MV4hwONledQK5nEDaUc-887967055%2Fuploads%2Fgit-blob-ad25a418a10e9930d1bfd2fd2833b449cfb5c438%2Fmatrix\_4.png?alt=media)
-
-Looking at the second numbers now we can see that like player 1, player 2 should confess as well: he will be set free instead of getting 1 month in jail.![](https://docs.olympusdao.finance/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MV4hwONledQK5nEDaUc-887967055%2Fuploads%2Fgit-blob-b846d4d8faf3ab30a719196b9e7ce89f695d144e%2Fmatrix\_5.png?alt=media)
-
-Once again it looks like Confess should be the chosen strategy even if player 2 thinks player 1 will also Confess.
-
-**Player 2 is also better off confessing regardless of player 1’s strategy.**
-
-### Assumptions and Conclusions <a href="#assumptions-and-conclusions" id="assumptions-and-conclusions"></a>
-
-* We assumed that both players' preferences were to minimise their jail time
-* We assumed both players were self-interested (i.e they don't care about their friends’ fate)
-* We assumed only one interaction
-* We assumed the players could not interact and plan their responses in advance
-
-These assumptions led to a sub-optimal outcome in the game (Confess, Confess). We can see that had both players stayed Quiet, they would have received less jail time. This is an **unstable equilibrium** however, because (as we saw) both players are motivated to opt for Confess if they believe the other will stay Quiet.
-
-Confess, Confess is therefore the only Nash equilibrium. A Nash equilibrium is a state in a game where no player wishes to deviate from their strategy, given what the other players are doing.
-
-**The only dominant strategy in the prisoner's dilemma is Confess, Confess.** If both players were able to cooperate with each other and stay Quiet however, they would have achieved a better outcome. This is an important conclusion as it shows us that **two individuals may not cooperate, despite it appearing to be the best strategy for both.**
+Η μόνη κυρίαρχη στρατηγική στο δίλημμα του φυλακισμένου είναι το Confess, Confess. Αν όμως και οι δύο παίκτες ήταν σε θέση να συνεργαστούν μεταξύ τους και να παραμείνουν ήσυχοι, θα είχαν επιτύχει ένα καλύτερο αποτέλεσμα. Αυτό είναι ένα σημαντικό συμπέρασμα, καθώς μας δείχνει ότι δύο άτομα μπορεί να μην συνεργάζονται, παρά το γεγονός ότι φαίνεται να είναι η καλύτερη στρατηγική και για τους δύο.
