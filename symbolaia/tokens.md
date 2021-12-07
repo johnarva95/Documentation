@@ -4,21 +4,45 @@
 
 ## gOHM&#x20;
 
-gOHM σημαίνει Governance OHM. Αντικαθιστά το wsOHM ως μέρος της μετάβασης v2. Το gOHM είναι τυλιγμένο στο sOHM V2, το οποίο σας επιτρέπει να χρησιμοποιείτε το sOHM V2 σε διαφορετικά blockchains. Η τιμή του είναι ακριβώς η ίδια με αυτή του wsOHM:
+gOHM σημαίνει Governance OHM. Αντικαθιστά το [wsOHM](https://docs.olympusdao.finance/main/contracts/tokens#wsohm) ως μέρος της [μετάβασης v2](https://docs.olympusdao.finance/main/basics/migration). Το gOHM είναι τυλιγμένο στο sOHM V2, το οποίο σας επιτρέπει να χρησιμοποιείτε το sOHM V2 σε διαφορετικά blockchains. Η τιμή του είναι ακριβώς η ίδια με αυτή του wsOHM:
 
-V1 [0x0ab8...a52f](https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f)
+$$
+gOHMprice=OHMprice∗CurrentIndex
+$$
 
-gOHMprice=OHMprice∗CurrentIndexgOHM\_{price} = OHM\_{price} \* CurrentIndexgOHMprice​=OHMprice​∗CurrentIndex
-
-Εξακολουθείτε να συλλέγετε ανταμοιβές αναπροσαρμογής (rebase), όπως ακριβώς αν είχατε sOHM, αλλά δεν θα δείτε το υπόλοιπο των tokens σας να αυξάνεται, επειδή η αύξηση της αξίας βασίζεται στον Τρέχων Δείκτη τη στιγμή της αγοράς και της πώλησης. Ανατρέξτε σε αυτές τις Συχνές ερωτήσεις για περισσότερες λεπτομέρειες.
+Εξακολουθείτε να συλλέγετε ανταμοιβές αναπροσαρμογής (rebase), όπως ακριβώς αν είχατε sOHM, αλλά δεν θα δείτε το υπόλοιπο των tokens σας να αυξάνεται, επειδή η αύξηση της αξίας βασίζεται στον Τρέχων Δείκτη τη στιγμή της αγοράς και της πώλησης. Ανατρέξτε σε [αυτές τις Συχνές ερωτήσεις](https://docs.olympusdao.finance/main/basics/basics#how-do-i-track-my-rebase-rewards) για περισσότερες λεπτομέρειες.
 
 Παρακάτω παρατίθενται οι συμβάσεις gOHM ανά έκδοση, όπου η τελευταία έκδοση αντιπροσωπεύει την τρέχουσα ενεργή σύμβαση.
 
-Εξήγηση Τρέχοντος Δείκτη / Γιατί μου δείχνει λιγότερα OHM κατά τη διάρκεια της μετάβασης;
+Ethereum:
 
-Ο Τρέχων Δείκτης είναι πόσα OHM θα είχε κάποιος αν έβαζε 1 OHM από την έναρξη του πρωτοκόλλου. Ελέγξτε το ταμπλό του Olympus για την τιμή του Τρέχοντος δείκτη.
+* V1 [0x0ab8...a52f](https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f)
 
-Δεν είστε σίγουροι για το υπόλοιπο του gOHM που θα έχετε μετά τη μετάβαση στο V2; Διαβάστε τις Συχνές ερωτήσεις για περισσότερες λεπτομέρειες σχετικά με τον υπολογισμό.
+Arbitrum One:
+
+* V1 [0x8D9b...5FB1](https://arbiscan.io/token/0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1)
+
+Avalanche:
+
+* V1 [0x321e...4251](https://snowtrace.io/token/0x321e7092a180bb43555132ec53aaa65a5bf84251)
+
+Fantom:
+
+* V1 [0x91fa...3FDc](https://ftmscan.com/token/0x91fa20244Fb509e8289CA630E5db3E9166233FDc)
+
+Polygon:
+
+* V1 [0xd8cA...5195](https://polygonscan.com/token/0xd8cA34fd379d9ca3C6Ee3b3905678320F5b45195)
+
+{% hint style="info" %}
+**Εξήγηση Τρέχοντος Δείκτη / Γιατί μου δείχνει λιγότερα OHM κατά τη διάρκεια της μετάβασης;**
+
+Ο Τρέχων Δείκτης είναι πόσα OHM θα είχε κάποιος αν έβαζε 1 OHM από την έναρξη του πρωτοκόλλου. Ελέγξτε το [ταμπλό του Olympus](https://app.olympusdao.finance/#/dashboard) για την τιμή του Τρέχοντος δείκτη.
+
+Δεν είστε σίγουροι για το υπόλοιπο του gOHM που θα έχετε μετά τη μετάβαση στο V2; [Διαβάστε τις Συχνές ερωτήσεις](https://docs.olympusdao.finance/main/basics/migration#can-you-walk-me-through-an-example-of-how-much-gohm-i-can-expect-from-the-migration) για περισσότερες λεπτομέρειες σχετικά με τον υπολογισμό.
+{% endhint %}
+
+
 
 ### OHM <a href="#ohm" id="ohm"></a>
 
